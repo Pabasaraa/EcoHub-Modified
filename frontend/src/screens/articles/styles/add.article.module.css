@@ -1,0 +1,31 @@
+h2{
+  
+   
+    color: rgb(43, 33, 70);
+ 
+  
+}
+
+.btn {
+    width: 150px;
+    margin: 30px 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: #1e21ad;
+    border: none;
+    text-align: center;
+    padding: 7px 30px 7px 30px;
+    border-radius: 10px;
+    outline-style: solid;
+    outline-width: 2px;
+  }
+  
+  .btn:hover {
+    color: #1A4314;
+    background-color: white;
+  }
+
+  .form-group mb-4{
+    font-weight: bold;
+  }

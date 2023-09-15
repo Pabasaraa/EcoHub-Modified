@@ -1,0 +1,15 @@
+.heading {
+    text-align: center;
+    padding-top: 70px;
+  }
+  .heading h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #009FBD;
+    text-transform: uppercase;
+  }
+  .heading h1 {
+    font-size: 45px;
+   
+    text-transform: capitalize;
+  }

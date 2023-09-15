@@ -1,0 +1,51 @@
+.gradientCustom2 {
+    /* fallback for old browsers */
+        background: #fccb90;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+    
+/* @media (min-width: 768px) {
+.gradientForm {
+        height: calc(100vh - 550px) !important;
+}
+} */
+
+.btn_login {
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: #1A4314;
+    border: none;
+    text-align: center;
+    padding: 7px 30px 7px 30px;
+    border-radius: 10px;
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.btn_login:hover {
+    color: #1A4314;
+    font-weight: 500;
+    background-color: white;
+}
+
+.clickableText {
+    color: #1A4314;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.clickableText:hover {
+    color: #1A4314;
+    font-weight: 500;
+    background-color: transparent;
+    text-decoration: underline;
+}

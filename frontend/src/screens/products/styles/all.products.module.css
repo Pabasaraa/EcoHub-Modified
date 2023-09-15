@@ -1,0 +1,85 @@
+.container {
+    margin: 30px auto;
+    width: 100%;
+  }
+  
+  .searchBar {
+    margin-bottom: 40px;
+  }
+  
+  .searchInput {
+    border: 2px solid rgba(108, 117, 125, 0.2) ;
+  }
+  
+  .searchInput:focus {
+    border: 2px solid rgba(108, 117, 125, 0.3) ;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    outline: 0 none;
+  }
+  
+  .searchBtn {
+    background-color: white;
+    border: 2px solid rgba(108, 117, 125, 0.2) ;
+    color: #6C757D;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .searchBtn:hover {
+    background-color: #212529;
+    border: 2px solid #212529;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .productGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .productCard {
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+    border: 1px solid rgba(220, 220, 220, 0.6);
+  }
+
+  .productCard:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: translate(0, -5px);
+    scale: 1.01;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .productIms{
+    width: 100%;
+    height: 200px;
+    object-fit: scale-down;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 992px) {
+    .productGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .productGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .productGrid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }

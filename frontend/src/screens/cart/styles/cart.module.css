@@ -1,0 +1,116 @@
+.product {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .cardBody {
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .product img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .productInfo {
+    flex: 1;
+  }
+
+  .productTable {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.productTableRow {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.productTableHeader {
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.productTableCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.productTableCell img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.cardSubText {
+  color: #3A3B3C;
+  opacity: 0.8;
+}
+
+.productTableHeader:last-child,
+.productTableCell:last-child {
+  border-right: none;
+}
+  
+  .shippingEstimates {
+    margin-top: 50px;
+  }
+  
+  .shippingMethod {
+    margin-bottom: 20px;
+  }
+  
+  .shippingMethod label {
+    margin-left: 10px;
+  }
+  
+  .shippingDetailsForm {
+    margin-top: 20px;
+  }
+  
+  .orderSummary h4 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .orderSummary p {
+    margin-bottom: 10px;
+  }
+  
+  .orderSummary hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .removeBtn {
+    background-color: transparent;
+    border: none;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 0.9rem;
+    color: blue;
+    text-decoration: underline;
+  }
+
+  .label {
+      margin-left: 5px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #585555;
+      opacity: 0.9;
+  }

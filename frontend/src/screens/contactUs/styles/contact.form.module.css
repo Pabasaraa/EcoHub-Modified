@@ -1,0 +1,41 @@
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+
+  .top {
+    height: 300px;
+  }
+
+  .bottom {
+    height: 50%;
+  }
+}
+
+/* For screens larger than 576px */
+@media (min-width: 576px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .top {
+    height: 400px;
+  }
+}
+
+/* For screens larger than 768px */
+@media (min-width: 768px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+/* For screens larger than 992px */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+  }
+}

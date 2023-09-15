@@ -1,0 +1,57 @@
+.horizontalLine {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+  .container {
+    margin: 0;
+    max-width: 100vw  ;
+  }
+  
+  .productDetailSection {
+    padding: 0 30px;
+  }
+
+  .cardPrice {
+    display : flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .cardTotal{
+    display : flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+  .quantity {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+  }
+  
+  .productCard {
+    border: none;
+    border-radius: 10px;
+    max-width: auto;
+    padding: 0 20px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+  }
+
+  .reviewForm {
+    width: 100%;
+    padding: 20px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    border: 10px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0px 0px 10px #dcdcdc;
+  }

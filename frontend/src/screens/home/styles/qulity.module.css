@@ -1,0 +1,49 @@
+.container {
+    max-width: 80%;
+
+    margin: auto;
+ 
+  }
+
+.qulity_box {
+    background-color: #262A56;
+    color: #000000;
+    text-align: center;
+    
+  }
+  .qulity_box h1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+ .icon {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    background: #B8621B;
+    border-radius: 4% 50%;
+    font-size: 32px;
+    color: #ffffff;
+  }
+  .icon img{
+    width: 55%;
+    height: 55%;
+  }
+  .box h1 {
+    font-size: 50px;
+  }
+  .box p {
+    color: grey;
+  }
+
+  .grid4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+  }
+
+  .box{
+    padding: 50px;
+  }

@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .deleteButton:hover {
+    background-color: #e60000;
+  }
+  
+  .deleteConfirmation {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .deleteButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .deleteButtons button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .deleteButtons button:hover {
+    background-color: #e60000;
+  }
+
+
+  .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.orders {
+  width: 80%;
+}
+  
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.details {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.payments {
+  margin-top: 3rem;
+  padding: 1rem 5rem 1rem 5rem;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deleteButton {
+  margin-top: 3rem;    
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.deleteButton:hover {
+  background-color: #ff0000;
+}
+
+.deleteConfirmation {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deleteButtons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.clickableText {
+  color: #4468E2;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.clickableText:hover {
+  color: #07379e;
+}
+
+@media only screen and (max-width: 768px) {
+  .payments {
+    width: 100%;
+  }
+}

@@ -1,0 +1,63 @@
+
+  .flexSB  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .flexSB label {
+   padding: 20px;
+  
+  }
+
+  .Box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.05rem;
+    padding: 10px;
+  }
+
+ 
+
+.text h{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+.text p{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.btn {
+  /* border-radius: 5px;
+  width: 60%;
+  padding: 10px 5px;
+  background: #B8621B;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold; */
+  width: 110px;
+  height: 35px;
+  margin: 0 40px;
+  background: #B8621B;
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+.btngroup{
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 10px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  margin: 30px auto;
+  align-items: center;
+}

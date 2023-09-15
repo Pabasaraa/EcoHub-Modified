@@ -1,0 +1,80 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
+} */
+
+.container {
+    max-width: 80%;
+  margin-left: 180px;
+    /* margin: 50px; */
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+  }
+
+.aboutHome {
+    height: auto;
+  }
+  .aboutHome #heading {
+    text-align: left;
+    padding: 0;
+  }
+
+  .left_row{
+    width:60%;
+    height: 100%;
+    padding-top: 20px;
+  }
+  .left_row img {
+    width: 80%;
+    height: 100%;
+ 
+   
+  }
+ .right_row {
+    width: 100%;
+ 
+
+  }
+
+  .item_flexSB {
+    width: 120%;
+    /* box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    border-radius: 15px; */
+    background-color: #ffffff;
+    /* margin-top: 30px; */
+    margin-top: 0px;
+    padding-top: 0px;
+    
+ 
+  }
+ .imgContainer {
+    width: 200px;
+  }
+ .img {
+    width: 90px;
+    height: 90px;
+  }
+ .text h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+ .text p {
+    color: #999999;
+    padding-bottom: 20px;
+  }
+  .aboutHome .item:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  }
+  .aboutHome .item:hover p {
+    color: #fff;
+  }
