@@ -32,8 +32,10 @@ const Profile = () => {
         setCsrf(res.data.data.csrf);
         callback(res.data.data._id);
       })
-      .catch((err) => {
-        console.log(err, "error");
+      .catch(() => {
+        alert(
+          "An error occurred while validating the token. Please try again later."
+        );
       });
   }
 
@@ -68,6 +70,7 @@ const Profile = () => {
       navigate("/login");
     } catch (error) {
       console.error("Logout failed:", error);
+      alert("Logout failed");
     }
   };
 

@@ -43,7 +43,8 @@ const Login = () => {
         navigate("/profile");
       })
       .catch((error) => {
-        console.log(error);
+        console.error(error);
+        alert("Error while validating token");
       });
   };
 
